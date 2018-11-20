@@ -1,0 +1,15 @@
+name: Михаил Чугунков
+description: <a href="https://github.com/poslegm" target="_blank">GITHUB</a> | <a href="https://t.me/lilfunctor" target="_blank">TLGRM</a> | <a href="https://instagram.com/poslegm" target="_blank">INSTAGRAM</a>
+meta_description: "Михаил Чугунков, блог о программировании (и не только)"
+
+markdown: kramdown
+highlighter: pygments
+paginate: 10
+baseurl: /
+domain_name: 'https://chugunkov.website'
+google_analytics: 'UA-73475101-2'
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'https://chugunkov.website/'
+author:         'Михаил Чугунков'
