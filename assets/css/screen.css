@@ -138,7 +138,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: Times, serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -613,7 +613,7 @@ iframe, .fluid-width-video-wrapper {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: Times, serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -689,7 +689,7 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1.0em;
     line-height: 1.7em;
 }
 
@@ -1081,7 +1081,7 @@ body:not(.post-template) .post-title {
 
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: Times, serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1233,7 +1233,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-        font-size: 0.95em
+        font-size: 1.0em
     }
 
     body:not(.post-template) .post-title {
