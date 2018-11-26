@@ -660,6 +660,7 @@ iframe, .fluid-width-video-wrapper {
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+    font-size: 1.1em;
 }
 
 .post:after {
@@ -1233,7 +1234,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-        font-size: 1.0em
+        font-size: 1.1em
     }
 
     body:not(.post-template) .post-title {
