@@ -9,6 +9,9 @@ baseurl: /
 domain_name: 'https://chugunkov.website'
 google_analytics: 'UA-73475101-2'
 plugins: [jekyll-paginate]
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Details for the RSS feed generator
 url:            'https://chugunkov.website/'
