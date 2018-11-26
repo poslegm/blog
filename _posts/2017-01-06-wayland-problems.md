@@ -20,7 +20,7 @@ env SAL_USE_VCLPLUGIN=gtk libreoffice --writer &
 #### Отсутствие иконки трея в Telegram
 Из-за проблем совместимости с Wayland у официального клиента Telegram на данный момент не отображается иконка в трее. Насколько я знаю, аналогичные баги есть ещё у нескольких приложений, но меня интересует именно Telegram.
 
-![Так должно быть](/assets/images/wayland-problems/correct.png)
+[![](/assets/images/wayland-problems/correct-c.jpg)](/assets/images/wayland-problems/correct.png)
 Проблема решается запуском приложения командой
 
 ```

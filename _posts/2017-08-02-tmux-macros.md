@@ -7,9 +7,9 @@ date:   2017-08-02 00:00:00
 Недавно я обнаружил, что я постоянно создаю в tmux всего два типа рабочих мест:
 
 * Основная вкладка, разделённая на 4 панели, в одном из которых запущен htop:
-  [![](/assets/images/tmux-macros/tdef.png)](/assets/images/tmux-macros/tdef.png)
+  [![](/assets/images/tmux-macros/tdef-c.jpg)](/assets/images/tmux-macros/tdef.png)
 * Вкладка для работы с программным кодом, 3 четверти которой занимает текстовый редактор, а оставшееся место поделено на 2 панели:
-  [![](/assets/images/tmux-macros/tide.png)](/assets/images/tmux-macros/tide.png)
+  [![](/assets/images/tmux-macros/tide-c.jpg)](/assets/images/tmux-macros/tide.png)
 
 Чтобы постоянно не создавать их руками, я решил сделать макросы, автоматически генерирующие такие разбиения терминала. Гугление не дало вариантов, которые меня бы устроили: зачастую люди использовали для подобных задач фреймворк [tmuxinator](https://github.com/tmuxinator/tmuxinator), но мне не хотелось тащить к себе громоздкую зависимость просто для того, чтобы создавать панельки в терминале.
 

@@ -18,7 +18,7 @@ sbt -sbt-version 1.2.1 new http4s/http4s.g8 -b 0.19
 
 0.19 ― это версия фреймворка. Я использовал последнюю на момент написания статьи. Теперь при запуске проекта через `sbt run` можно увидеть что-то вроде этого:
 
-![](/assets/images/simple-http4s/first-output.png)
+![](/assets/images/simple-http4s/first-output-c.jpg)
 
 Чтобы выключить сервер, надо нажать Ctrl+C. Но вот незадача! По этой команде не только выключилось приложение, но и закрылась консоль sbt. К счастью, в `project/plugins.sbt` сразу подключен [плагин](https://github.com/spray/sbt-revolver), позволяющий этого избежать. Снова заходим в консоль, но вводим уже не `run`, а `reStart`. При необходимости выключить сервер просто вводим `reStop`. Теперь не придётся перезапускать консоль по нескольку раз в день.
 
@@ -94,7 +94,7 @@ object PHashServer extends IOApp {
 4. Собрать проект через `sbt compile`;
 5. Добавить код, сгенерированный шаблонизатором, в индексацию Intellij IDEA, чтобы она лишний раз не краснила. Для этого в Project Structure находим файлы twirl в директории target и помечаем их, как исходники.
 
-[![](/assets/images/simple-http4s/twirl-idea.png)](/assets/images/simple-http4s/twirl-idea.png)
+[![](/assets/images/simple-http4s/twirl-idea-c.jpg)](/assets/images/simple-http4s/twirl-idea.png)
 
 Теперь изменяем роуты, так, чтобы они отдавали свеженаписанный html. Заодно добавим отдачу произвольной статики из директории `src/main/resources/static`:
 
