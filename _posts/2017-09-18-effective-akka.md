@@ -19,7 +19,7 @@ date:   2017-09-18 00:00:00
 
 Допустим, нам надо отправить из одного актора сообщения в три других, а все три ответа вернуть одновременно. Можно написать такой код:
 
-```scala
+{% highlight scala %}
 import akka.pattern.ask
 
 val timeout = Timeout(10 seconds)
@@ -29,7 +29,7 @@ for {
   r2 <- (actor2 ? ComputeSomething2(y)).mapTo[SomeResponse2]
   r3 <- (actor3 ? ComputeSomething3(z)).mapTo[SomeResponse3]
 } yield replyTo ! AllResponses(r1, r2, r3)
-```
+{% endhighlight %}
 
 Но так делать __не надо__, потому что при каждому вызове метода `ask` создаётся временный актор, который отслеживает не истёк ли таймаут и передаёт ответ через `Promise`. С точки зрения производительности это _очень_ плохо.
 
@@ -41,9 +41,9 @@ for {
 
 Лучшей практикой создания контекста названо обращение к контексту, объявленному в конфиге.
 
-```scala
+{% highlight scala %}
 implicit val ec: ExecutionContext = context.system.dispatchers.lookup("foo")
-```
+{% endhighlight %}
 
 А ещё я познакомился с функцией `scala.concurrent.blocking`, в которую рекомендуется оборачивать блокирующий код.
 
@@ -51,7 +51,7 @@ implicit val ec: ExecutionContext = context.system.dispatchers.lookup("foo")
 
 Вот хочу я, чтобы сообщения, отправляемые в несколько совершенно разных акторов сначала проходили через общую функцию `receive`, в которой сообщения определённых типов обрабатывались, а остальные уже отправлялись в целевые акторы. При этом я не хочу городить иерархии с наследованием. Здесь мне на помощь приходит функция `orElse` и Chaining Pattern. Осталось просто скомбинировать функции в нужном порядке, обернуть их в трейты и готово:
 
-```scala
+{% highlight scala %}
 trait ChainingActor extends Actor {
   private var receives: List[Receive] = List()
   def registerReceive(newReceive: Receive) {
@@ -78,13 +78,13 @@ class MyActor extends IntActor with StringActor {
     case Hello => println("World!")
   }
 }
-```
+{% endhighlight %}
 
 #### Push Pattern
 
 В качестве одного из свойств реактивных приложений приводится семантика "отправь и забудь". В модели акторов она находит следующее выражение: когда мы хотим получить что-то от другого актора, мы отправляем ему запросы до тех пор, пока он не ответит. Приводится простой паттерн, который позволяет достаточно удобно реализовать это при помощи переключения контекстов:
 
-```scala
+{% highlight scala %}
 class MyActor(otherActor: ActorRef) extends Actor {
   var cancellable: Option[Cancellable] = None
   def receive = {
@@ -100,7 +100,7 @@ class MyActor(otherActor: ActorRef) extends Actor {
       context.unbecome
     }
 }
-```
+{% endhighlight %}
 
 А если мы хотим обрабатывать больше сигналов Start одновременно, можно поднимать временные акторы, как в паттерне Cameo.
 

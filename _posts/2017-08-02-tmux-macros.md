@@ -15,7 +15,7 @@ date:   2017-08-02 00:00:00
 
 Поэтому я пришёл к более легковесному решению. В репозиторий с [дотфайлами](/2017/08/01/dotfiles) добавляются два скрипта:
 
-```sh
+{% highlight sh %}
 #!/usr/bin/zsh
 tmux split-window -h -c "#{pane_current_path}"
 tmux split-window -v -c "#{pane_current_path}"
@@ -24,22 +24,23 @@ tmux split-window -v -c "#{pane_current_path}"
 tmux select-pane -t 3
 tmux send-keys "htop" C-m
 tmux select-pane -t 0
-```
+{% endhighlight  %}
 
-```sh
+{% highlight sh %}
 #!/usr/bin/zsh
 tmux split-window -h -p 25 -c "#{pane_current_path}"
 tmux split-window -v -c "#{pane_current_path}"
 tmux select-pane -t 0
-```
+{% endhighlight %}
+
 
 Как можно увидеть, это просто создание панелей стандартными средствами tmux.
 
 Далее в список алиасов добавляются две строчки:
 
-```sh
+{% highlight sh %}
 alias tdef='~/.dotfiles/tmux/default-session.sh'
 alias tide='~/.dotfiles/tmux/ide-session.sh'
-```
+{% endhighlight %}
 
 Теперь при открытии новой вкладки в tmux я могу просто ввести `tide` и мгновенно получить нужное мне разбиение на панели.
