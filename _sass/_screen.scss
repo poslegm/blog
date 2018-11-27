@@ -97,34 +97,11 @@ table { border-collapse: collapse; border-spacing: 0; }
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ghost:before {
-    content: "\f600";
-}
 .icon-feed:before {
     content: "\f601";
 }
-.icon-twitter:before {
-    content: "\f602";
-    font-size: 1.1em;
-}
-.icon-google-plus:before {
-    content: "\f603";
-}
-.icon-facebook:before {
-    content: "\f604";
-}
 .icon-arrow-left:before {
     content: "\f605";
-}
-.icon-stats:before {
-    content: "\f606";
-}
-.icon-location:before {
-    content: "\f607";
-    margin-left: -3px; 
-}
-.icon-link:before {
-    content: "\f608";
 }
 
 
@@ -443,31 +420,6 @@ iframe, .fluid-width-video-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
-.scroll-down {
-    display: block;
-    position: absolute;
-    z-index: 100;
-    bottom: 45px;
-    left: 50%;
-    margin-left: -16px;
-    width: 34px;
-    height: 34px;
-    font-size: 34px;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255,255,255,0.7);
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    -webkit-animation: bounce 4s 2s infinite;
-    animation: bounce 4s 2s infinite;
-}
-
-.scroll-down:hover {
-    color: #fff;
-    -webkit-animation: none;
-    animation: none;
-}
-
 .home-template .main-header:after {
     display: block;
     content: " ";
@@ -484,9 +436,7 @@ iframe, .fluid-width-video-wrapper {
     background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
 }
 
-.no-cover .scroll-down,
 .no-cover.main-header:after,
-.archive-template .scroll-down,
 .archive-template .main-header:after {
     display: none
 }
@@ -706,14 +656,6 @@ body:not(.post-template) .post-title {
     color: #9EABB3;
 }
 
-.author-thumb {
-    width: 24px;
-    height: 24px;
-    float: left;
-    margin-right: 9px;
-    border-radius: 100%;
-}
-
 .post-meta a {
     color: #9EABB3;
     text-decoration: none;
@@ -735,44 +677,6 @@ body:not(.post-template) .post-title {
     font-size: 1.3rem;
     white-space: nowrap;
 }
-
-.user-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.user-name {
-    display: block;
-    font-weight: 700;
-}
-
-.user-bio {
-    display: block;
-    max-width: 440px;
-    font-size: 1.4rem;
-    line-height: 1.5em;
-}
-
-.publish-meta {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 4.3rem 0 4rem 0;
-    text-align: right;
-}
-
-.publish-heading {
-    display: block;
-    font-weight: 700;
-}
-
-.publish-date {
-    display: block;
-    font-size: 1.4rem;
-    line-height: 1.5em;
-}
-
 
 .post-template .post-header {
    margin-bottom: 3.4rem;
@@ -842,17 +746,6 @@ body:not(.post-template) .post-title {
     line-height: 1.75em;
 }
 
-
-.author-meta {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-size: 1.4rem;
-    line-height: 1;
-    font-style: italic;
-    color: #9EABB3;
-}
-
 .author-meta a {
     color: #9EABB3;
 }
@@ -891,83 +784,6 @@ body:not(.post-template) .post-title {
 
 .post-footer .share a:hover {
     color: #50585D;
-}
-
-
-.subscribe {
-    width: 28px;
-    height: 28px;
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    margin-left: -15px;
-    border: #EBF2F6 1px solid;
-    text-align: center;
-    line-height: 2.4rem;
-    border-radius: 50px;
-    background: #FFF;
-    transition: box-shadow 0.5s;
-}
-
-
-.subscribe:before {
-    color: #D2DEE3;
-    font-size: 10px;
-    position: absolute;
-    top: 2px;
-    left: 9px;
-    font-weight: 700;
-    transition: color 0.5s ease;
-}
-
-
-.subscribe:hover {
-    box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
-    transition: box-shadow 0.25s;
-}
-
-.subscribe:hover:before {
-    color: #50585D;
-}
-
-
-.tooltip {
-    opacity: 0;
-    display: block;
-    width: 53px;
-    padding: 4px 8px 5px 8px;
-    position:absolute;
-    top: -23px;
-    left: -21px;
-    color: rgba(255,255,255,0.9);
-    font-size: 1.1rem;
-    line-height: 1em;
-    text-align: center;
-    background: #50585D;
-    border-radius: 20px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease, top 0.3s ease;
-}
-
-
-.tooltip:after {
-    content: " ";
-    border-width: 5px 5px 0 5px;
-    border-style: solid;
-    border-color: #50585D transparent;
-    display: block;
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    margin-left: -5px;
-    z-index: 220;
-    width: 0;
-}
-
-
-.subscribe:hover .tooltip {
-    opacity: 1;
-    top: -33px;
 }
 
 .post-head.main-header {
