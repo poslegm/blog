@@ -14,5 +14,5 @@ sass:
   style: compressed
 
 # Details for the RSS feed generator
-url:            'https://chugunkov.website/'
+rss_url:        'https://chugunkov.website'
 author:         'Михаил Чугунков'
