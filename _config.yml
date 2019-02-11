@@ -7,8 +7,9 @@ highlighter: pygments
 paginate: 10
 baseurl: /
 domain_name: 'https://chugunkov.website'
+url: "https://chugunkov.website"
 google_analytics: 'UA-73475101-2'
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-sitemap]
 sass:
   sass_dir: _sass
   style: compressed
