@@ -6,6 +6,8 @@
 
     <title>{{ page.title }}</title>
     <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.meta_description | truncate: 160  }}{% endif %}" />
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="{{ page.title }}">
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -14,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
-
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
