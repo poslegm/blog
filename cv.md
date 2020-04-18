@@ -8,8 +8,9 @@ title:  "CV"
 poslegm@gmail.com ⊕ [https://github.com/poslegm](https://github.com/poslegm) ⊕ [https://www.linkedin.com/in/poslegm](https://www.linkedin.com/in/poslegm/)
 
 ### Опыт работы
+* __Scala-разработчик в [auto.ru](https://auto.ru/)__ _(Август 2019 ― настоящее время)_  
 
-* __Scala-разработчик в [metacommerce.ru](https://www.metacommerce.ru/)__ _(Январь 2017 ― настоящее время)_  
+* __Scala-разработчик в [metacommerce.ru](https://www.metacommerce.ru/)__ _(Январь 2017 ― Июль 2019)_  
 Продуктовая компания, поставляющая SaaS для ценового мониторинга. Клиенты компании ― крупнейшие российские ритэйлеры.  
 Технологии: Scala, Akka, Elasticsearch, ClickHouse, Redis, Kafka, RabbitMQ, ExtJS, Node.js 
 Разрабатывал модули ценовой аналитики поверх ClickHouse, потоковой обработки сырых данных (порядка 200 миллионов документов в сутки), кластеризации десятков миллионов изображений.  

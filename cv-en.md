@@ -8,8 +8,9 @@ title:  "CV"
 poslegm@gmail.com ⊕ [https://github.com/poslegm](https://github.com/poslegm) ⊕ [https://www.linkedin.com/in/poslegm](https://www.linkedin.com/in/poslegm/)
 
 ### Work Experience 
+* __Scala developer at [auto.ru](https://auto.ru/)__ _(August 2019 ― Now)_  
 
-* __Scala developer at [metacommerce.ru](https://www.metacommerce.ru/)__ _(January 2017 ― Now)_  
+* __Scala developer at [metacommerce.ru](https://www.metacommerce.ru/)__ _(January 2017 ― July 2019)_  
 Metacommerce is a software company which provides price monitoring SaaS for largest Russian retailers.  
 Technologies: Scala, Akka, Elasticsearch, ClickHouse, Redis, Kafka, RabbitMQ, ExtJS, Node.js   
 During the work at Metacommerce I implemented: price analytics module based on ClickHouse RDBMS; streaming processing of raw data (about 200 millions documents per day) that allowed us to scale main business operations easily; clustering millions of images; and lot of routine tasks.  
