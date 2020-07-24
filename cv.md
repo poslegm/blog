@@ -27,7 +27,7 @@ __Чуть-чуть работал:__ JavaScript (Node.js), Java, Kotlin, Python
 * [scala-phash](https://github.com/poslegm/scala-phash) ― портировал на Scala библиотеку для вычисления хэшей изображений и их сравнения
 * [sbt-scalafmt](https://github.com/scalameta/sbt-scalafmt) ― sbt-плагин для форматирования кода при помощи scalafmt; после внесения нескольких улучшений меня назначили мейнтейнером проекта
 * Стараюсь при наличии времени вносить вклад в открытые проекты; посмотреть, что я делаю, можно на [гитхабе](http://github.com/poslegm/) 
-* Иногда пишу всякое про разработку в блог ([https://chugunkov.website](https://chugunkov.website)) 
+* Иногда пишу всякое про разработку в блог ([https://chugunkov.dev](https://chugunkov.dev)) 
 
 ### Образование
 

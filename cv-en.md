@@ -27,7 +27,7 @@ __Basic:__ JavaScript (Node.js), Java, Kotlin, Python, Go, C++, PostgreSQL
 * [scala-phash](https://github.com/poslegm/scala-phash) ― my Scala port of the library that allows to compare images by hash codes 
 * [sbt-scalafmt](https://github.com/scalameta/sbt-scalafmt) ― sbt plugin for code formatting using scalafmt; after several improvements I became a maintainer
 * I spend a part of my free time for Open Source contributions; my progress can be tracked at [GitHub](http://github.com/poslegm/) 
-* Sometimes I write blogposts about development ([https://chugunkov.website](https://chugunkov.website), in Russian) 
+* Sometimes I write blogposts about development ([https://chugunkov.dev](https://chugunkov.dev), in Russian) 
 
 ### Education 
 

@@ -60,7 +60,7 @@ pkgdesc='Code formatter for Scala built with GraalVM (for fast startup)' # [help
 arch=('x86_64') # [help] архитектуры, на которые этот пакет может быть установлен
 url='https://scalameta.org/scalafmt/' # [help] ссылка на сайт ПО, которое поставляется в этом пакете
 license=('Apache')
-source=("https://chugunkov.website/files/scalafmt-native-2.0.0.RC4.tar.gz") # [help] ссылка на tar.gz архив с содержимым пакета, который скачается и распакуется при установке
+source=("https://chugunkov.dev/files/scalafmt-native-2.0.0.RC4.tar.gz") # [help] ссылка на tar.gz архив с содержимым пакета, который скачается и распакуется при установке
 sha256sums=('deefaa75b5363872f1f8da5d2a881db3a8cb05df6692989b450963b79a7b6efd') # [help] хеш-сумма архива
 
 # [help] действия, выполняющиеся при установке
