@@ -1,18 +1,18 @@
 name: <a href="https://github.com/poslegm" target="_blank">GITHUB</a> | <a href="https://t.me/lilfunctor" target="_blank">TLGRM</a> | <a href="https://www.linkedin.com/in/poslegm/" target="_blank">LINKEDIN</a>
-meta_description: "Михаил Чугунков, блог о программировании (и не только)"
+meta_description: "Михаил Чугунков"
 
 markdown: kramdown
 highlighter: pygments
 paginate: 10
 baseurl: /
-domain_name: 'https://chugunkov.dev'
+domain_name: "https://chugunkov.dev"
 url: "https://chugunkov.dev"
-google_analytics: 'UA-73475101-2'
+google_analytics: "UA-73475101-2"
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-gzip]
 sass:
-  sass_dir: _sass
-  style: compressed
+    sass_dir: _sass
+    style: compressed
 
 # Details for the RSS feed generator
-rss_url:        'https://chugunkov.dev'
-author:         'Михаил Чугунков'
+rss_url: "https://chugunkov.dev"
+author: "Михаил Чугунков"
