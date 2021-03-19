@@ -3,31 +3,37 @@ layout: cv
 title:  "CV"
 ---
 
-# Чугунков Михаил Владимирович
+# Михаил Чугунков
 
 poslegm@gmail.com ⊕ [https://github.com/poslegm](https://github.com/poslegm) ⊕ [https://www.linkedin.com/in/poslegm](https://www.linkedin.com/in/poslegm/)
 
 ### Опыт работы
-* __Scala-разработчик в [auto.ru](https://auto.ru/)__ _(Август 2019 ― настоящее время)_  
+* __[auto.ru](https://auto.ru/)__ _(Август 2019 ― настоящее время)_  
+  * __Scala-разработчик__ _(Август 2019 ― Октябрь 2020)_
+  * __Руководитель группы__ _(Октябрь 2020 ― настоящее время)_
 
 * __Scala-разработчик в [metacommerce.ru](https://www.metacommerce.ru/)__ _(Январь 2017 ― Июль 2019)_  
 Продуктовая компания, поставляющая SaaS для ценового мониторинга. Клиенты компании ― крупнейшие российские ритэйлеры.  
-Технологии: Scala, Akka, Elasticsearch, ClickHouse, Redis, Kafka, RabbitMQ, ExtJS, Node.js 
+Технологии: Scala, Akka, Monix, Elasticsearch, ClickHouse, Redis, Kafka, RabbitMQ, ExtJS, Node.js 
 Разрабатывал модули ценовой аналитики поверх ClickHouse, потоковой обработки сырых данных (порядка 200 миллионов документов в сутки), кластеризации десятков миллионов изображений.  
 Принимал активное участие в развитии инженерной культуры в компании.
 
 * __Backend-разработчик в компании Свой Родной Дом__ _(Январь 2016 ― Июль 2016)_
 Небольшая риэлторская компания. Сделал веб-приложение для поиска недвижимости, используя Scala, Play Framework, PostgreSQL. Кроме, непосредственно, программирования, занимался тестированием, деплоем и администрированием БД.
 
-### Навыки
-__Много работал:__ Scala (Akka, Monix, cats), Elasticsearch, ClickHouse, Kafka, Redis, RabbitMQ  
-__Чуть-чуть работал:__ JavaScript (Node.js), Java, Kotlin, Python, Go, C++, PostgreSQL
+### Технологии
+__Много работал:__ Scala (Akka, Monix, cats, ZIO), Elasticsearch, ClickHouse, Kafka, Redis, RabbitMQ, PostgreSQL  
+__Чуть-чуть работал:__ JavaScript (Node.js), Java, Kotlin, Python, Go, C++
 
 ### Проекты
-* [scala-phash](https://github.com/poslegm/scala-phash) ― портировал на Scala библиотеку для вычисления хэшей изображений и их сравнения
-* [sbt-scalafmt](https://github.com/scalameta/sbt-scalafmt) ― sbt-плагин для форматирования кода при помощи scalafmt; после внесения нескольких улучшений меня назначили мейнтейнером проекта
-* Стараюсь при наличии времени вносить вклад в открытые проекты; посмотреть, что я делаю, можно на [гитхабе](http://github.com/poslegm/) 
-* Иногда пишу всякое про разработку в блог ([https://chugunkov.dev](https://chugunkov.dev)) 
+
+##### Open Source
+* [scalameta](https://github.com/scalameta) ― в 2019-2020 годах активно участвовал в разработке форматировщика кода [scalafmt](https://github.com/scalameta/scalafmt) (отраслевой стандарт де-факто) и сопутствующей экосистемы. Стал мейнтейнером проекта и членом организации scalameta;
+* [scala-phash](https://github.com/poslegm/scala-phash) ― портировал на Scala библиотеку для вычисления хэшей изображений и их сравнения;
+* Время от времени отправляю коммиты в разные OSS проекты, посмотреть, что я делал, можно на [гитхабе](http://github.com/poslegm/).
+
+##### Медиа
+* [Lil Functor](https://t.me/lilfunctor) ― Telegram-канал о разработке с 800+ подписчиками.
 
 ### Образование
 
