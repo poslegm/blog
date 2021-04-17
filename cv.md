@@ -30,6 +30,7 @@ __Чуть-чуть работал:__ JavaScript (Node.js), Java, Kotlin, Python
 ##### Open Source
 * [scalameta](https://github.com/scalameta) ― в 2019-2020 годах активно участвовал в разработке форматировщика кода [scalafmt](https://github.com/scalameta/scalafmt) (отраслевой стандарт де-факто) и сопутствующей экосистемы. Стал мейнтейнером проекта и членом организации scalameta;
 * [scala-phash](https://github.com/poslegm/scala-phash) ― портировал на Scala библиотеку для вычисления хэшей изображений и их сравнения;
+* [brief](https://github.com/poslegm/brief) ― микробиблиотека на Scala с макросом для генерации конструкторов классов с refined полями;
 * Время от времени отправляю коммиты в разные OSS проекты, посмотреть, что я делал, можно на [гитхабе](http://github.com/poslegm/).
 
 ##### Медиа
