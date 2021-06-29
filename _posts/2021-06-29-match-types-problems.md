@@ -6,8 +6,8 @@ description: "Мои проблемы с Match Types в Scala 3"
 ---
 
 Поигрался с [match
-types](https://dotty.epfl.ch/docs/reference/new-types/match-types.html) в Scala
-3. Сильно хотел использовать их для определения зависимости возвращаемого типа
+types](https://dotty.epfl.ch/docs/reference/new-types/match-types.html) в Scala 3.
+Сильно хотел использовать их для определения зависимости возвращаемого типа
 функции от типа аргумента, но не прокатило. Не понравилось, что матчинг при
 использовании типа происходит в рантайме, поэтому можно словить исключение
 `MatchError`:
@@ -66,3 +66,6 @@ inline](https://dotty.epfl.ch/docs/reference/metaprogramming/inline.html#transpa
 
 Он же на Scala 3:
 [https://scastie.scala-lang.org/EwfBu7rcTwi6UQ11VYMwEQ](https://scastie.scala-lang.org/EwfBu7rcTwi6UQ11VYMwEQ)
+
+Несмотря на то, что эта штука _работает_, выглядит она не как нативная языковая
+конструкция, а как насилие над компилятором.
