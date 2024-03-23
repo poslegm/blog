@@ -4,9 +4,9 @@ meta_description: "Михаил Чугунков"
 markdown: kramdown
 highlighter: pygments
 paginate: 10
-baseurl: /
+baseurl: /blog
 domain_name: "https://chugunkov.dev"
-url: "https://chugunkov.dev"
+url: "https://chugunkov.dev/blog"
 google_analytics: "UA-73475101-2"
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-gzip]
 sass:
@@ -14,5 +14,5 @@ sass:
     style: compressed
 
 # Details for the RSS feed generator
-rss_url: "https://chugunkov.dev"
+rss_url: "https://chugunkov.dev/blog"
 author: "Михаил Чугунков"
