@@ -5,4 +5,4 @@ title:  "Выступления"
 
 ## Публичные выступления
 
-- [Как переложить JSON?](https://www.youtube.com/watch?v=CRatWLptsWA&t=2296s). Scala-митап в Москве, 2024.
+- [Как переложить JSON?](https://www.youtube.com/watch?v=usp3Y0-VxwM). Scala-митап в Москве, 2024.
